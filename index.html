@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    .bg-lin {
+      background: linear-gradient(106.5deg, #ffffff 14.5%, #f0f7ff 118.4%);
+    }
+    .bg-lin2 {
+      background: linear-gradient(125.97deg, #0073ec 8.74%, #2e93ff 90.75%);
+    }
+  </style>
+  <body class="px-5 py-5 bg-lin">
+    <div class="container mx-auto grid grid-cols-2">
+      <div class="">
+        <img class="w-[124px] lg:w-40" src="./logo.png" alt="" />
+      </div>
+      <div
+        class="w-[170px] lg:w-60 flex space-x-2 lg:space-x-0 py-1 shadow-sm lg:shadow-lg ml-auto rounded-full justify-center  items-center"
+      >
+        <div class="bg-white/60 shadow p-2 rounded-full">
+          <img src="./phone.png" class="w-8" alt="" />
+        </div>
+        <div class="flex flex-col">
+          <span class="text-[10px] lg:text-lg">Open 7 Days A Week</span>
+          <span class="text-[10px] lg:text-lg font-bold"> 0161 444 3961 </span>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-row-reverse py-5">
+      <button
+        id="navbtn"
+        class="bg-white p-5 shadow rounded-full flex justify-center items-center"
+      >
+        <img src="./btn.png" alt="" />
+      </button>
+    </div>
+    <nav id="tnav" class=" transition duration-300 absolute w-2/3 -left-[100%]   bg-gray-200 top-0 lg:hidden px-5 py-10 rounded-lg ">
+       <div>Option</div>
+    </nav>
+    <div class=" grid grid-cols-1 lg:grid-cols-2 container mx-auto bg-white rounded p-5">
+      <div>
+      <h1 class="text-lg font-bold pb-5">Select Your Service</h1>
+      <select
+        class="border w-full rounded-lg border-[EFEFEF] h-10 px-2 mb-5"
+        name="opt1"
+        id="opt1"
+      >
+        <option class="" value="Plastering">Plastering</option>
+      </select>
+      <select
+        class="border w-full rounded-lg border-[EFEFEF] h-10 px-2 mb-5"
+        name="opt1"
+        id="opt1"
+      >
+        <option class="" value="Plastering">Electric</option>
+      </select>
+      <select
+        class="border w-full rounded-lg border-[EFEFEF] h-10 px-2 mb-5"
+        name="opt1"
+        id="opt1"
+      >
+        <option class="" value="Plastering">Loft Board Fitting</option>
+      </select>
+      </div>
+      <div class="flex justify-center items-center py-10">
+        <img src="./manwithcamera.png" alt="" />
+      </div>
+    </div>
+    
+    <div class="container mx-auto flex flex-wrap gap-2 lg:justify-around">
+      <h1 class="text-sm lg:text-xl">
+        <span class="font-bold text-[#0073EC]">01</span>
+        Rapid Response
+      </h1>
+      <h1 class="text-sm lg:text-xl">
+        <span class="font-bold text-[#0073EC]">02</span>
+        Highly Competitive Rates
+      </h1>
+      <h1 class="text-sm lg:text-xl">
+        <span class="font-bold text-[#0073EC]">02</span>
+        Zero Call-Out Fees On Completed Jobs!
+      </h1>
+    </div>
+    <div class="my-5 container mx-auto ">
+      <h1 class="font-bold text-3xl lg:text-6xl mb-2">
+        <span class="text-[#0073EC] relative"
+          >Rapid
+          <svg
+            class="absolute bottom-0 left-0"
+            width="86"
+            height="8"
+            viewBox="0 0 86 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M84 6C67.2862 2.98151 27.487 -1.24439 2 6"
+              stroke="#0073EC"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        Response Installation, Repair & Maintenance Experts
+      </h1>
+      <p class="mb-3 text-[#19202B] lg:text-3xl">
+        We're here to solve your household problems, big or small, 24 hours a
+        day
+      </p>
+      <p class="text-[#19202B] lg:text-xl">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc
+        justo, sodales sed sem sit amet, malesuada luctus lacus. Suspendisse
+        lectus orci, vestibulum vitae tellus non, aliquet blandit neque.
+        Vestibulum leo dolor, porta sit amet cursus sed, commodo ut orci.
+        Curabitur et tortor vestibulum, aliquet lacus id, pulvinar erat.
+      </p>
+    </div>
+    <div class="bg-lin2 my-10 lg:w-2/4 mx-auto relative text-white rounded-xl p-5">
+      <div class="flex w-[70%] flex-col space-y-1">
+        <h1 class="text-lg font-bold">
+          Call us now to chat with an expert in the field!
+        </h1>
+        <button
+          class="bg-white text-black px-1 py-2 mx-auto rounded-full text-lg px-4"
+        >
+          0161 444 3961
+        </button>
+      </div>
+
+      <img
+        class="absolute right-0 bottom-0"
+        src="./portrait-worker-with-tools-planning-writing-note-isolated-white-background (3) 1.png"
+        alt=""
+      />
+
+      <div></div>
+    </div>
+    <div class="container mx-auto  lg:gap-10 lg:grid-cols-2 grid grid-cols-1 gap-5">
+      <details open class="border h-fit  p-5 shadow rounded-lg open:border-[#0073EC] ">
+        <summary class="flex justify-between items-center">
+          <div
+            class="bg-lin2 w-10 h-10 flex justify-center items-center rounded-full"
+          >
+            <img class="w-5 h-5" src="./Vector.png" alt="" />
+          </div>
+          <div class="">
+            <h1 class="font-bold">Rapid Response</h1>
+          </div>
+          <div class="focus:hidden">
+            <svg
+             class="" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 0.644599C8.9662 0.535617 8.90088 0.446666 8.81341 0.369346C8.73234 0.297625 8.65697 0.220304 8.57681 0.147722C8.36762 -0.0420263 8.09311 -0.0493492 7.87272 0.127907C7.84394 0.151168 7.81722 0.177013 7.79028 0.202428C6.73493 1.19769 5.67982 2.19295 4.62403 3.18778C4.48586 3.31787 4.52217 3.3183 4.38034 3.18498C3.32272 2.188 2.26509 1.19101 1.20861 0.193167C1.07821 0.0699705 0.933415 -0.00885781 0.74112 0.00901857C0.618023 0.0204336 0.51845 0.0721243 0.432351 0.151383C0.344425 0.232366 0.257413 0.314425 0.171314 0.39713C-0.0563806 0.615738 -0.0577508 0.892499 0.171085 1.10895C0.699783 1.60949 1.23008 2.10831 1.75992 2.60798C2.53801 3.34178 3.31587 4.07557 4.09396 4.80915C4.36344 5.06308 4.64367 5.06372 4.91224 4.81044C6.2035 3.59291 7.4943 2.37473 8.78669 1.15806C8.87919 1.07083 8.95981 0.979081 8.99977 0.859977C9 0.788256 9 0.716535 9 0.644599Z" fill="#C2C2C2"/>
+                </svg>
+                
+          </div>
+        </summary>
+        <p class="py-5 text-[#19202B] text-lg ">
+          Household problems are a real pain, and can cause so much unnecessary
+          stress in your day-to-day life - we're here to take away that stress
+          by providing a fast and reliable service with our 24/7 availability,
+          as well as offering emergency call-outs to get your problems sorted
+          EVEN FASTER!
+        </p>
+      </details>
+      <details class="border h-fit p-5 shadow rounded-lg open:border-[#0073EC] ">
+        <summary class="flex justify-between items-center">
+          <div
+            class="bg-lin2 w-10 h-10 flex justify-center items-center rounded-full"
+          >
+            <img class="w-5 h-5" src="./Vector.png" alt="" />
+          </div>
+          <div class="">
+            <h1 class="font-bold">Rapid Response</h1>
+          </div>
+          <div class="focus:hidden">
+            <svg
+             class="" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 0.644599C8.9662 0.535617 8.90088 0.446666 8.81341 0.369346C8.73234 0.297625 8.65697 0.220304 8.57681 0.147722C8.36762 -0.0420263 8.09311 -0.0493492 7.87272 0.127907C7.84394 0.151168 7.81722 0.177013 7.79028 0.202428C6.73493 1.19769 5.67982 2.19295 4.62403 3.18778C4.48586 3.31787 4.52217 3.3183 4.38034 3.18498C3.32272 2.188 2.26509 1.19101 1.20861 0.193167C1.07821 0.0699705 0.933415 -0.00885781 0.74112 0.00901857C0.618023 0.0204336 0.51845 0.0721243 0.432351 0.151383C0.344425 0.232366 0.257413 0.314425 0.171314 0.39713C-0.0563806 0.615738 -0.0577508 0.892499 0.171085 1.10895C0.699783 1.60949 1.23008 2.10831 1.75992 2.60798C2.53801 3.34178 3.31587 4.07557 4.09396 4.80915C4.36344 5.06308 4.64367 5.06372 4.91224 4.81044C6.2035 3.59291 7.4943 2.37473 8.78669 1.15806C8.87919 1.07083 8.95981 0.979081 8.99977 0.859977C9 0.788256 9 0.716535 9 0.644599Z" fill="#C2C2C2"/>
+                </svg>
+                
+          </div>
+        </summary>
+        <p class="py-5 text-[#19202B] text-lg ">
+          Household problems are a real pain, and can cause so much unnecessary
+          stress in your day-to-day life - we're here to take away that stress
+          by providing a fast and reliable service with our 24/7 availability,
+          as well as offering emergency call-outs to get your problems sorted
+          EVEN FASTER!
+        </p>
+      </details>
+      <details class="border h-fit p-5 shadow rounded-lg open:border-[#0073EC] ">
+        <summary class="flex justify-between items-center">
+          <div
+            class="bg-lin2 w-10 h-10 flex justify-center items-center rounded-full"
+          >
+            <img class="w-5 h-5" src="./Vector.png" alt="" />
+          </div>
+          <div class="">
+            <h1 class="font-bold">Rapid Response</h1>
+          </div>
+          <div class="focus:hidden">
+            <svg
+             class="" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 0.644599C8.9662 0.535617 8.90088 0.446666 8.81341 0.369346C8.73234 0.297625 8.65697 0.220304 8.57681 0.147722C8.36762 -0.0420263 8.09311 -0.0493492 7.87272 0.127907C7.84394 0.151168 7.81722 0.177013 7.79028 0.202428C6.73493 1.19769 5.67982 2.19295 4.62403 3.18778C4.48586 3.31787 4.52217 3.3183 4.38034 3.18498C3.32272 2.188 2.26509 1.19101 1.20861 0.193167C1.07821 0.0699705 0.933415 -0.00885781 0.74112 0.00901857C0.618023 0.0204336 0.51845 0.0721243 0.432351 0.151383C0.344425 0.232366 0.257413 0.314425 0.171314 0.39713C-0.0563806 0.615738 -0.0577508 0.892499 0.171085 1.10895C0.699783 1.60949 1.23008 2.10831 1.75992 2.60798C2.53801 3.34178 3.31587 4.07557 4.09396 4.80915C4.36344 5.06308 4.64367 5.06372 4.91224 4.81044C6.2035 3.59291 7.4943 2.37473 8.78669 1.15806C8.87919 1.07083 8.95981 0.979081 8.99977 0.859977C9 0.788256 9 0.716535 9 0.644599Z" fill="#C2C2C2"/>
+                </svg>
+                
+          </div>
+        </summary>
+        <p class="py-5 text-[#19202B] text-lg ">
+          Household problems are a real pain, and can cause so much unnecessary
+          stress in your day-to-day life - we're here to take away that stress
+          by providing a fast and reliable service with our 24/7 availability,
+          as well as offering emergency call-outs to get your problems sorted
+          EVEN FASTER!
+        </p>
+      </details>
+    </div>
+    <footer class="py-5">
+       <h1 class="font-bold text-3xl lg:text-6xl mb-2">
+        <span class="text-[#0073EC] relative"
+        >Footer
+        <svg
+          class="absolute bottom-0 left-0"
+          width="86"
+          height="8"
+          viewBox="0 0 86 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M84 6C67.2862 2.98151 27.487 -1.24439 2 6"
+            stroke="#0073EC"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+        </svg>
+      </span>
+       </h1>
+       <p class="py-5 text-center text-3xl" >
+          &copy; Demo Project
+       </p>
+    </footer>
+    <script>
+      const navbtn = document.getElementById("navbtn");
+      navbtn.addEventListener('click',()=>{
+        document.getElementById("tnav").classList.toggle("left-0");
+      })
+    </script>
+  </body>
+</html>
